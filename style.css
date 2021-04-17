@@ -9,7 +9,7 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 80px -20px #888888;
+    box-shadow: 0px 0px 70px -15px #888888;
 }
 
 #text-side{
@@ -97,7 +97,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
-    box-shadow: 0px 0px 80px -15px #888888;
+    box-shadow: 0px 10px 80px -15px  #888888;
 }
 
 #photo-title{
@@ -119,10 +119,40 @@ body{
 }
 
 
-/* .image-separator p{
-    margin: auto;
+#creator-title{
+    font-size: 50px;
     text-align: center;
-    font-size: x-large;
-    font-weight: 400;
-} */
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 5px;
+}
 
+.creator-name{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#cre-name-box{
+    text-align: center;
+}
+
+#some-text{
+    font-weight: 200;
+    font-size: large;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#some-text2{
+    font-weight: 200;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+#source-code-text{
+    text-decoration: none;
+    color: #333333;
+}
