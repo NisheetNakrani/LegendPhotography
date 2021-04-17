@@ -1,15 +1,15 @@
 body{
     background-color: #eeeeee;
     margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #landing{
     background-color: #ffffff;
     height: auto;
-    /* width: 900px; */
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 80px -20px #888888;
+    box-shadow: 0px 0px 70px -15px #888888;
 }
 
 #text-side{
@@ -27,7 +27,6 @@ body{
 
 
 #m-title{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style:normal;
     font-size:40px;
     font-weight: 400;
@@ -35,7 +34,6 @@ body{
 }
 
 #slogan{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight:400;
     font-size: 16px;
     text-transform: uppercase;
@@ -59,11 +57,8 @@ body{
 
 }
 
-
-
 #view-work-btn{
     text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: black;
     border: 1px #b3b1b1 solid;
     border-radius: 2em;
@@ -92,5 +87,72 @@ body{
         height: 100%;
         width: 900px;
     }
-    
+    .mainpage-photos, .image-separator{
+        width: 900px;
+    }
+}
+
+.mainpage-photos{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    box-shadow: 0px 10px 80px -15px  #888888;
+}
+
+#photo-title{
+    background-color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#photo-title h2{
+    color: white;
+    font-weight: 400;
+    margin: auto;
+}
+
+.image-separator{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#creator-title{
+    font-size: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+    margin-bottom: 5px;
+}
+
+.creator-name{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#cre-name-box{
+    text-align: center;
+}
+
+#some-text{
+    font-weight: 200;
+    font-size: large;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#some-text2{
+    font-weight: 200;
+    font-size: large;
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+#source-code-text{
+    text-decoration: none;
+    color: #333333;
 }
