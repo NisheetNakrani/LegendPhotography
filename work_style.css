@@ -1,0 +1,132 @@
+body{
+    background-color: #eeeeee;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#landing{
+    background-color: #ffffff;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 80px -20px #888888;
+}
+
+
+#title-container{
+    text-align: center;
+    background-color: #333333;
+}
+
+#main-title{
+    color: white;
+    font-weight: lighter;
+    margin: auto; 
+    padding: 10px 0px 10px;
+}
+
+#title-container p{
+    float: left; 
+    position: relative; 
+    top: 3px; 
+    left: 15px;
+}  
+
+#logo{
+    width: 25px;
+    height: 25px;
+}
+
+
+
+#slogan-box{
+    text-align: center;
+}
+
+#slogan-fullscreen{
+    display: none;
+}
+
+#slogan-mobscreen{
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    color: #3f3f3f;
+    font-size: 18px;
+}
+
+
+#photo-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo-of-6{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+#photo1{background: url("img/Butterfly.png");background-size: cover;background-position: center;}
+#photo2{background: url("img/Flower.jpg");background-size: cover;background-position: center;}
+#photo3{background: url("img/sunset-plant.jpg");background-size: cover;background-position: center;}
+#photo4{background: url("img/sun-temple.jpg");background-size: cover;background-position: center;}
+#photo5{background: url("https://source.unsplash.com/random/?Fish");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
+#photo6{background: url("https://source.unsplash.com/random/?Plant");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
+#photo7{background: url("https://source.unsplash.com/random/?Animals");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
+#photo8{background: url("https://source.unsplash.com/random/?Stars");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
+#photo9{background: url("https://source.unsplash.com/random/?Moon");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
+
+.photo-of-6:hover{
+    box-shadow: 0px 0px 80px -20px #888888;
+}
+
+/* Photo title  */
+.photo-title-box span{
+    font-weight: bolder;
+    color:#3f3f3f;
+}
+
+.photo-title-box{
+    margin:20px;
+}
+
+@media (min-width: 900px){
+    #landing{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 900px;
+    }
+    #slogan-fullscreen{
+        display: inline-block;
+        font-size: 18px;
+        font-weight: bold;
+        color: #3f3f3f;
+        margin: 22px 0px 8px;
+    }
+    #slogan-mobscreen{
+        display: none;
+    }
+    .photo-of-6{
+        width: 240px;
+        height: 240px;
+        margin-bottom: 5px;
+    }
+    #photo5,#photo6,#photo7,#photo8,#photo9{
+        width: 240px;
+        height: 240px;
+    }
+
+    #title-container p{
+        float: left; 
+        position: relative; 
+        top: 5px; 
+        left: 20px;
+    }  
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+}
