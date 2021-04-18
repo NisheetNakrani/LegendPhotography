@@ -92,6 +92,11 @@ body{
     margin:20px;
 }
 
+#page-{
+    text-decoration: none;
+    font-weight: 300;
+}
+
 @media (min-width: 900px){
     #landing{
         display: flex;
