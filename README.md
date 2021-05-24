@@ -6,4 +6,4 @@ Creator :
 
 So Here We Are Making Our First Collaborative Website.
 
-You Can Visit The Site At - https://nisheetkumar.github.io/LegendPhotography/
+You Can Visit The Site At - https://nisheetnakrani.github.io/LegendPhotography/
