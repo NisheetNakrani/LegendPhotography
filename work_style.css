@@ -15,6 +15,12 @@ body{
 
 #title-container{
     text-align: center;
+    background-color: #3333336b;
+    transition: all 1s ease;
+}
+
+#title-container:hover{
+    transition: all 1s ease;
     background-color: #333333;
 }
 
@@ -23,6 +29,7 @@ body{
     font-weight: lighter;
     margin: auto; 
     padding: 10px 0px 10px;
+    cursor: pointer;
 }
 
 #title-container p{
