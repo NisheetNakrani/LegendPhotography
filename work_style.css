@@ -44,8 +44,6 @@ body{
     height: 25px;
 }
 
-
-
 #slogan-box{
     text-align: center;
 }
@@ -73,6 +71,8 @@ body{
     width: 300px;
     height: 300px;
     margin-bottom: 5px;
+    border-radius: 30px;
+    transition: all 0.5s ease;
 }
 
 #photo1{background: url("img/Butterfly.png");background-size: cover;background-position: center;}
@@ -86,7 +86,8 @@ body{
 #photo9{background: url("https://source.unsplash.com/random/?Moon");background-size: cover;background-position: center;width: 300px;height: 300px;position: relative;}
 
 .photo-of-6:hover{
-    box-shadow: 0px 0px 80px -20px #888888;
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 100px 10px #888888;
 }
 
 /* Photo title  */
@@ -97,6 +98,7 @@ body{
 
 .photo-title-box{
     margin:20px;
+    text-align: center;
 }
 
 #page-{
